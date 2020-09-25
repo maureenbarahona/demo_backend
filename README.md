@@ -1,6 +1,6 @@
 # demo_backend
 
-Build a Restful CRUD API for a simple quotation application using Node.js, Express and MongoDB.
+Build a Restful MVC API  using Node.js, Express and MongoDB.
 
 ## Steps to Setup
 
@@ -10,7 +10,6 @@ Build a Restful CRUD API for a simple quotation application using Node.js, Expre
 npm install
 ```
 
-2. Run Server
 
 ```bash
 node server.js
@@ -20,7 +19,13 @@ You can browse the apis at <http://localhost:3000>
 
 3. Endpoints avilables
 
-### http://localhost:3000/cotizacion  -- post create new currency define id(mongo)
+*/cotizacion/dolar
+*/cotizacion/euro
+*/cotizacion/real
+
+### Endpoins CRUD with MongoDB define id(mongo)
+
+* http://localhost:3000/monedas  -- post, get, getOne(id), update, delete (mongo) -- la base esta en la nube
 
 ```bash
 {
