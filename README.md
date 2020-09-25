@@ -19,9 +19,9 @@ You can browse the apis at <http://localhost:3000>
 
 3. Endpoints avilables
 
-1. /cotizacion/dolar
-2. /cotizacion/euro
-3. /cotizacion/real
+#### /cotizacion/dolar
+#### /cotizacion/euro
+#### /cotizacion/real
 
 ### Endpoins CRUD with MongoDB define id(mongo)
 
