@@ -1,0 +1,32 @@
+{
+  "name": "demo_backend",
+  "version": "1.0.0",
+  "description": "api de cotizacion",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maureenbarahona/demo_backend.git"
+  },
+  "keywords": [
+    "Express",
+    "RestApi",
+    "MongoDB",
+    "Mongoose",
+    "Notes"
+  ],
+  "author": "maureenBarahona",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maureenbarahona/demo_backend/issues"
+  },
+  "homepage": "https://github.com/maureenbarahona/demo_backend#readme"
+}
