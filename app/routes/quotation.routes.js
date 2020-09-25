@@ -1,7 +1,7 @@
 module.exports =() => {
-    const quotation = require('../controllers/quotation.controller');
+    const quotation = require('../controllers/currency.controller');
 
-    app.post('/cotizacion', quotation.create);
+    app.post('/cotizacionApi', quotation.create);
 
     app.get('/cotizacion', quotation.findAll);
 

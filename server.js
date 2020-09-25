@@ -21,6 +21,8 @@ mongoose.connect(dbConfig.url, {
     process.exit();
 })
 
+require('./app/routes/currency.routes.js')(app);
+
 app.get('/', (req, res) =>{
     res.json({"message":"welcome to my MauDemo"})
 });
@@ -41,6 +43,6 @@ app.get('/cotizacion/real', (req, res)=>{
     })
 })
 
-app.listen(8080,() =>{
+app.listen(3000,() =>{
     console.log("server is listening on port 3000");
 });
