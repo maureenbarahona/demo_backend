@@ -1,7 +1,8 @@
 const express = require('express');
-const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const bodyParser = require('body-parser');
 const dbConfig = require('./config/database.config');
+require ('./app/routes/quotation.routes.js');
 
 const app = express();
 
